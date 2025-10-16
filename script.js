@@ -144,6 +144,7 @@ menu.addEventListener("click", function(event) {
         }
 
     })
+
     //Finalizar Pedido
 
     checkoutBtn.addEventListener("click", function() {
@@ -197,7 +198,7 @@ menu.addEventListener("click", function(event) {
     function checkRestaurantOpen() {
         const data = new Date();
         const hora = data.getHours();
-        return hora >= 18 && hora < 23;
+        return hora >= 01:00 && hora < 12:50;
         // true = restaurante aberto
     }
 
